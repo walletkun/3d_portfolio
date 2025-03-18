@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@theme {
+    --breakpoint-md: 767px;
+}
+
+.md {
+    max-width: var(--breakpoint-md);
+}
